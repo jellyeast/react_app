@@ -13,7 +13,6 @@ export default class CounterButton extends React.Component {
     }
     render() {
     var text = this.state.counter;
-    var i = this.state.i;
     return(<button onClick={this.handleClick}>第{this.props.i}個按鍵 你點了 {text}次</button>);
     }
     }
